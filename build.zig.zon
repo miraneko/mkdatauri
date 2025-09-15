@@ -1,0 +1,19 @@
+.{
+    .name = .mkdatauri,
+    .version = "3.0.0",
+    .fingerprint = 0x8e60c4e3914a3999,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .flags = .{
+            .url = "git+https://github.com/joegm/flags#1dc0af323f7f3ffdf81d575c762ed5584f044713",
+            .hash = "flags-0.10.0-a_9h3ltuAAD218bNoRstScMFf5TWCj_-6CuMa-OZ8Oie",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
