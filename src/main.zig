@@ -53,7 +53,7 @@ pub fn percentEncode(destination: []u8, source: []const u8) ![]u8 {
             destination[out_index] = byte;
             out_index += 1;
         } else {
-            if (out_index + 3 > destination.len) return error.NoSpaceLeft;
+            if (out_index + 2 >= destination.len) return error.NoSpaceLeft;
             destination[out_index] = '%';
             @memcpy(destination[out_index + 1 .. out_index + 3], &std.fmt.hex(byte));
             out_index += 3;
