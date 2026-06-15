@@ -2,6 +2,8 @@
 
 A simple command-line tool to create `data:` URIs from files or standard input.
 
+now use <https://gist.github.com/miraneko/ffe2df6fb23932722ecf469c6ba9ac25> instead
+
 ## Features
 
 * Read from a file or standard input.
